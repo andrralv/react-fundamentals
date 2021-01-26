@@ -6,14 +6,17 @@ import {
 } from "react-router-dom";
 import Empleados from './pages/Empleados';
 import Solicitud from './pages/Solicitud';
+import useFooter from './components/useFooter';
 
 function App() {
+
+  const EmpleadosWithFooter = useFooter(Empleados);
   return (
     <div className="app">
       <Router>
         <Switch>
           <Route path="/empleados">
-            <Empleados />
+            <EmpleadosWithFooter />
           </Route>
           <Route path="/">
             <Solicitud />
