@@ -5,13 +5,20 @@
       "rol": "empleado",
       "puesto": "Data Scientist",
       "nombre": "Alan Turing",
-      "dias": 7,
+      "dias": 2,
       "solicitudes": [
         {
           "id": "1",
-          "inicio": "Jan 13th 21",
-          "fin": "Jan 10th 21",
-          "dias_solicitados": 3,
+          "inicio": "Jan 2nd 21",
+          "fin": "Jan 3rd 21",
+          "dias_solicitados": 1,
+          "status": "pendiente"
+        },
+        {
+          "id": "1",
+          "inicio": "Jan 28th 21",
+          "fin": "Jan 29th 21",
+          "dias_solicitados": 1,
           "status": "pendiente"
         }
       ]
