@@ -28,9 +28,9 @@ const Solicitud = () => {
 
     return (
         <div style={{ width: '1200px' }}>
-            <CartaEmpleadoWithCard {...{datos}} />
-            <SolicitudesWithCard {...{datos}} />
-            <CalendarioWithCard {...{datos}} />
+            <CartaEmpleadoWithCard {...{ datos }} />
+            <SolicitudesWithCard {...{ datos }} />
+            <CalendarioWithCard {...{ datos }} />
         </div>
         )
 };

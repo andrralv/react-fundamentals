@@ -14,14 +14,14 @@ const useStyles = createUseStyles({
   }
 });
 
-const Solicitudes = () => {
+const Solicitudes = ( { datos }) => {
   const classes = useStyles();
 
   return (
     <div className={classes.contenedor}>
       <div className={classes.titulo}>
           Solicitudes
-          <SolicitudesTabla />
+          <SolicitudesTabla { ...{ datos }} />
         </div>
     </div>
   )

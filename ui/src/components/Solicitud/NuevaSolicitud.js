@@ -78,7 +78,7 @@ const NuevaSolicitud = ({ datos }) => {
                     "id": uniqueId(),
                     "inicio": moment(fechaInicio).format('MMM Do YY'),
                     "fin": moment(fechaFin).format('MMM Do YY'),
-                    "dias_solicitados": diferencia,
+                    "dias_solicitados": diferencia < 0 ? 0 : diferencia,
                     "status": "pendiente"
                 }
             ]
