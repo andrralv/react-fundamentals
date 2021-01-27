@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import config from '../config';
-import NuevaSolicitud from '../components/NuevaSolicitud';
-import Solicitudes from '../components/Solicitudes';
-import CartaEmpleado from '../components/CartaEmpleado';
+import NuevaSolicitud from '../components/Solicitud/NuevaSolicitud';
+import Solicitudes from '../components/Solicitud/Solicitudes';
+import CartaEmpleado from '../components/Solicitud/CartaEmpleado';
 import useCard from '../components/useCard';
 
 const Solicitud = () => {

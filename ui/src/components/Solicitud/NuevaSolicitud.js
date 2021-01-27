@@ -5,7 +5,7 @@ import axios from 'axios';
 import DatePicker from "react-datepicker";
 import moment from 'moment';
 import { createUseStyles } from 'react-jss';
-import config from '../config';
+import config from '../../config';
 
 const SET_FECHA_INICIO = 'SET_FECHA_INICIO';
 const SET_FECHA_FIN = 'SET_FECHA_FIN';
