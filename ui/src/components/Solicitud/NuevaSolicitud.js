@@ -84,7 +84,6 @@ const NuevaSolicitud = ({ datos }) => {
                 }
             ]
         }
-        console.log();
         const { empleadoId } = config.session;
         await axios({
             method: 'patch',
