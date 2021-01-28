@@ -1,0 +1,36 @@
+{
+  "empleados": [
+    {
+      "id": 1,
+      "rol": "empleado",
+      "puesto": "Data Scientist",
+      "nombre": "Alan Turing",
+      "dias": 0,
+      "solicitudes": [
+        {
+          "id": "1",
+          "inicio": "Jan 2nd 21",
+          "fin": "Jan 3rd 21",
+          "dias_solicitados": 1,
+          "status": "pendiente"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rol": "empleado",
+      "puesto": "Engineer",
+      "nombre": "Ada Lovelace",
+      "dias": 3,
+      "solicitudes": []
+    },
+    {
+      "id": 3,
+      "rol": "empleado",
+      "puesto": "Architect",
+      "nombre": "Brendan Eich",
+      "dias": 0,
+      "solicitudes": []
+    }
+  ]
+}

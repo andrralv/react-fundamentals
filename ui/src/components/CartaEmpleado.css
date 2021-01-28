@@ -1,0 +1,22 @@
+.nombre-empleado {
+  font-size: 1.5em;
+  font-weight: 'bold';
+  width: '1200px';
+  margin: '20px';
+  background-color: 'red';
+}
+
+.contenedor-datos {
+  display: 'flex !important';
+}
+
+.carta-empleados {
+  text-align: 'left';
+  margin: '10px';
+}
+
+.puesto, .dias {
+  font-weight: 'bold';
+  width: '50%';
+  margin: '10px';
+}
